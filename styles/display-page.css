@@ -1,0 +1,48 @@
+main {
+  padding: 30px;
+  font-size: 0; /*setting fontsize to 0 removes white space*/
+}
+.tangle-one {
+  height: 200px;
+  width: 100%;
+  display: inline; /* This it the class within which we have .inner-one and two*/
+
+}
+.inner-one {
+
+  background-color: green;
+}
+
+.inner-two {
+  background-color: blue;
+}   /* .inner-one and inner-two are the first class designated in the html div, .firstrow
+is the second class on the same div. therefore there were 2 classes on one div separated by space*/
+.firstrow {
+  display: inline-block;
+  height: 200px;
+  width: 50%;
+  border: 1px solid black;
+
+}
+.centered {
+  height: 300px;
+  width: 100%;
+  display: block;
+}
+.orion-three {
+  background-color: grey;
+}
+.orion-four {
+  background-color: black;
+}
+.orion-five {
+  background-color: orange;
+}
+.secondrow {
+  display: inline-block; /*If u change this to block instead of inline-block, the rectangles would align vertically like a building block*/
+  height: 300px;
+  width: 33.33%;
+  border: 1px solid black;
+}
+/** this selector like firstrow is created so that the common properties between the child class/selectors are specified here.
+Since colors are different, they were specified in their own class selectors**/
