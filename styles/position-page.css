@@ -1,1 +1,16 @@
+div {
+  padding-top: 60px;
+  padding-right: 60px;
+  border: 1px solid black;
+  text-align:left;
+  width: 100%;
+  position: fixed;
+  background-color: azure;
+}
+body {
+  paddding-top 30px;
+  background-image: url("https://cdn.pixabay.com/photo/2015/11/26/03/57/milky-way-1063305__340.jpg"); /* If background does not work, try background-image.
+  If main does not work, try body . Sometimes deleting no repeat makes it work too*/
+  min-width: 600px;
 
+}
